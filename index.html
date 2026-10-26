@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Трекер — личный планировщик</title>
+<meta name="description" content="Трекер — личный планировщик дня, который синхронизирует события в собственный календарь пользователя в Google Календаре.">
+<style>
+  :root { --bg: #f3f5f4; --ink: #17201e; --muted: #5d6b67; --accent: #1d6b62; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111615; --ink: #e4ebe8; --muted: #93a39e; --accent: #5cbcae; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; font-size: 0.9rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Трекер</h1>
+  <p class="lead">Личный планировщик дня. Not a public service — a personal day planner used by its author.</p>
+
+  <p>Трекер собирает план дня (тренировки, занятия, напоминания, дедлайны) и показывает, как идёт неделя. Он работает на личном сервере автора и доступен только ему.</p>
+
+  <p>Чтобы напоминания приходили на телефон, Трекер может создать в Google Календаре пользователя <strong>отдельный календарь «Трекер»</strong> и добавлять в него события. Доступ запрашивается только к этому календарю: остальные календари пользователя Трекер не видит и не меняет.</p>
+
+  <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="privacy.html#en">Privacy policy (English)</a></p>
+
+  <footer>Автор: <a href="https://github.com/anikin-io">github.com/anikin-io</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Трекер — политика конфиденциальности</title>
+<style>
+  :root { --bg: #f3f5f4; --ink: #17201e; --muted: #5d6b67; --accent: #1d6b62; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111615; --ink: #e4ebe8; --muted: #93a39e; --accent: #5cbcae; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin-top: 32px; }
+  .date { color: var(--muted); margin-top: 0; }
+  a { color: var(--accent); }
+  hr { border: none; border-top: 1px solid var(--muted); opacity: 0.3; margin: 48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Политика конфиденциальности</h1>
+  <p class="date">Трекер · действует с 28.10.2026</p>
+
+  <h2>Что это за приложение</h2>
+  <p>Трекер — личный планировщик дня, которым пользуется только его автор. Приложение работает на личном сервере автора и не является публичным сервисом.</p>
+
+  <h2>Какие данные Google используются</h2>
+  <p>Трекер запрашивает одно разрешение: <code>https://www.googleapis.com/auth/calendar.app.created</code>. С ним приложение может создать в Google Календаре пользователя собственный календарь «Трекер» и создавать, менять и удалять события только в нём. Другие календари, события, контакты, почта и любые иные данные аккаунта Google приложению недоступны.</p>
+
+  <h2>Как данные хранятся</h2>
+  <p>На сервере приложения хранятся только токен доступа к Google и идентификатор календаря «Трекер». Содержимое событий берётся из плана самого пользователя. Данные не продаются, не передаются третьим лицам, не используются для рекламы и для обучения моделей.</p>
+  <p>Использование и передача данных, полученных из API Google, соответствуют <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, включая требования Limited Use.</p>
+
+  <h2>Как отозвать доступ и удалить данные</h2>
+  <p>Отозвать доступ можно в любой момент на <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> — после этого токен перестаёт действовать. Календарь «Трекер» можно удалить в настройках Google Календаря.</p>
+
+  <h2>Контакты</h2>
+  <p>Вопросы по приложению — через профиль автора: <a href="https://github.com/anikin-io">github.com/anikin-io</a>.</p>
+
+  <hr>
+
+  <h1 id="en">Privacy policy</h1>
+  <p class="date">Tracker · effective 28 October 2026</p>
+  <p><strong>About.</strong> Tracker is a personal day planner used only by its author. It runs on the author's private server and is not a public service.</p>
+  <p><strong>Google data.</strong> Tracker requests a single scope, <code>https://www.googleapis.com/auth/calendar.app.created</code>. It lets the app create its own secondary calendar named “Трекер” in the user's Google Calendar and create, update and delete events only in that calendar. The app has no access to other calendars, events, contacts, email or any other Google account data.</p>
+  <p><strong>Storage and sharing.</strong> The server stores only the Google access token and the ID of the “Трекер” calendar. Event content comes from the user's own plan. Data is never sold, shared with third parties, used for advertising or used to train models. Tracker's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <p><strong>Revoking access.</strong> Access can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The “Трекер” calendar can be deleted in Google Calendar settings.</p>
+  <p><strong>Contact:</strong> <a href="https://github.com/anikin-io">github.com/anikin-io</a>.</p>
+</main>
+</body>
+</html>
